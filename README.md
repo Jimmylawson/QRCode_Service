@@ -1,8 +1,19 @@
-This is the *QRCode Service* project I made myself.
+QRCode Service Project
 
+Description
+This is the QRCode Service project I built myself, leveraging Spring Boot to generate QR codes on the fly. QR codes are versatile 2D barcodes that can store large amounts of data and can be scanned by most smartphones. Through this project, you can learn about QR code technology, generate them programmatically, and integrate them into a web service.
 
-<p>This project utilizes QR codes — 2D barcodes that can store large amounts of data and are easily read by smartphones. Through this Spring Boot project, users can learn about the technology behind QR codes, generate them programmatically, and integrate them into a web service.</p><br/><br/>Learn more at <a href="https://hyperskill.org/projects/385?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/385</a>
+Key Features
+	•	Generates QR codes using the ZXing library.
+	•	Allows custom parameters such as size, image format, and error correction levels.
+	•	Returns the generated QR code image via a REST endpoint.
 
-Here's the link to the project: https://hyperskill.org/projects/385
+Learn More
+	•	Project on Hyperskill
+	•	My Hyperskill Profile
 
-Check out my profile: https://hyperskill.org/profile/617875055
+How to Run
+	1.	Clone this repository.
+	2.	Install dependencies via Maven or Gradle.
+	3.	Run the application (e.g., mvn spring-boot:run).
+	4.	Access the QR code endpoint at http://localhost:8080/api/qrcode.
